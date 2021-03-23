@@ -15,7 +15,7 @@ console.log(false - true); // false = 0 and here 0 - 1 = -1
 console.log(false + false);
 console.log(false - false);
 */
-
+//----------------------------------------------------------------------------------------------------
 
 
 // 2nd Challege  Nan
@@ -72,4 +72,46 @@ console.log("The value of b is " + b);
 
 //---------------------------------------------------------------------------------------------
 
+
+
+// 5th Challenge
+
+// write a program that works out whether if a given year is a leap year or not?
+// A normal year has 365 days, leap years have 366, with an extra day in February.
+/*
+var year = 2020;
+debugger;
+if(year % 4 == 0) {
+    if(year % 100 == 0) {
+        if( year % 400 == 0) {
+            console.log("The Year " + year + "Is a Leap year");
+        }else {
+            console.log("The Year " + year + " is not a leap year");
+        }
+    }else {
+        console.log("The Year " + year + " Is a Leap year");
+    }
+}else{
+    console.log("The Year " + year + " is not a leap year");
+}
+*/
+
+
+
+
+//-------------------------------------------------------------------------------------------------------------------
+
+// 6th Challenge
+
+// Print a table for given number (9);
+
+// for(var i= 1; i <= 10; i++) {
+//     var table = 8
+//     debugger;
+//     console.log(table + " * " + i + " = " + table * i);
+// }
+
+
+
+//-------------------------------------------------------------------------------------------------------------------------------------
 
