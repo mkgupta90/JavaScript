@@ -55,6 +55,16 @@
  console.log(false - true); // false = 0 and here 0 - 1 = -1
  console.log(false + false);
  console.log(false - false);
+
+
+ // Null and Undefined
+ var iAmUseless = null
+ console.log(iAmUseless); // Outpur = null
+ console.log(typeof(iAmUseless)); // Output = object // bug
+
+ var iAmStandBy; //variable delcleared but value not assign
+ console.log(iAmStandBy); // Output = undefined
+ console.log(typeof(iAmStandBy)); // output = undefined
   
  
  
